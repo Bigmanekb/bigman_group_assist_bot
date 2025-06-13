@@ -365,7 +365,7 @@ bot.on('my_chat_member', async (ctx) => {
 
                     let msg = `Благодарим вас за проявленный интерес к этому боту\n\n`;
                     msg += `Вы не можете использовать этого бота в своей группе\n\n`;
-                    msg += `Но вы можете самостоятельно <a href="https://github.com/Bigmanekb/telegram-delete-newmember-notify-bot">развернуть его на своем сервере</a>`;
+                    msg += `Но вы можете самостоятельно <a href="https://github.com/Bigmanekb/bigman_group_assist_bot">развернуть его на своем сервере</a>`;
                     await ctx.replyWithHTML(msg);
                     
                     console.error(`Bot was added to unlisted group ${chatMember.chat.title} ${chat_link} By User: ${addedBy.id}`, JSON.stringify(chatMember.chat));
