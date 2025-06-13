@@ -1,0 +1,10 @@
+services:
+  bigman_groupassist_bot:
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    build: ./build
+    env_file:
+      - .env
+    volumes:
+      - "./config:/app/config"
+      - "./log:/app/log"

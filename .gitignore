@@ -1,0 +1,5 @@
+.env
+deploy.sh
+config/chats.json
+config/pending_captchas.json
+log/main/log
