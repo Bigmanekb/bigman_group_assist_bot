@@ -1,5 +1,5 @@
 {
-    "name": "delete-new-member-notify-bot",
+    "name": "bigman_group_assist_bot",
     "version": "0.1",
     "description": "This bot removes system messages when a new user joins the group",
     "author": "Bigmanekb",
